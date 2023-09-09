@@ -14,6 +14,7 @@ return require('packer').startup(function(use)
   }
  
 
+  use 'jlanzarotta/bufexplorer'
   use 'navarasu/onedark.nvim'
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
@@ -73,5 +74,6 @@ return require('packer').startup(function(use)
   })
 
   use('ThePrimeagen/vim-be-good')
+  use('lervag/vimtex')
 
 end)

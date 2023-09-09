@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/jadh/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  bufexplorer = {
+    loaded = true,
+    path = "/home/jadh/.local/share/nvim/site/pack/packer/start/bufexplorer",
+    url = "https://github.com/jlanzarotta/bufexplorer"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/jadh/.local/share/nvim/site/pack/packer/start/cmp-buffer",
