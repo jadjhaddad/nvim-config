@@ -76,5 +76,10 @@ return require('packer').startup(function(use)
   use('lervag/vimtex')
   use({ 'toppair/peek.nvim', run = 'deno task --quiet build:fast' })
   --use("iamcco/markdown-preview.nvim")
+  
+  use({
+        'christoomey/vim-tmux-navigator',
+        lazy = false
+  })
 
 end)
