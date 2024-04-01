@@ -7,7 +7,7 @@ return {
         "nvim-tree/nvim-web-devicons",
         "MunifTanjim/nui.nvim",
     },
-    config = function() 
+    config = function()
         vim.keymap.set("n", "<leader>tt", ":Neotree<CR>")
     end
 }
