@@ -7,7 +7,7 @@ lsp_zero.on_attach(function()
 end)
 require("mason").setup({})
 require("mason-lspconfig").setup({
-  ensure_installed = { "lua_ls", "ast_grep", "tsserver" },
+  ensure_installed = { "lua_ls", "tsserver" },
   handlers = {
     lsp_zero.default_setup,
   },
